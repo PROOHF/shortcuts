@@ -11,6 +11,10 @@ dd {
   padding-bottom: 8px;
 }
 
+mark {
+  background-color: #ac94f4;
+}
+
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
