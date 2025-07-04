@@ -14,17 +14,20 @@
 
 <body>
   <header>
-    <div class="bg-light d-flex flex-column flex-md-row align-items-center p-3 px-md-4 border-bottom shadow-sm">
+    <div class=" d-flex flex-column flex-md-row align-items-center p-3 px-md-4 border-bottom shadow-sm">
       <h5 class="my-0 mr-md-auto font-weight-normal">Shortcuts</h5>
       <nav class="my-2 my-md-0 mr-md-3">
-        <a class="p-2 text-dark" href="#visual_studio_code">Visual Studio Code</a>
-        <a class="p-2 text-dark" href="#notepad++">Notepad++</a>
-        <a class="p-2 text-dark" href="#google_chrome">Google Chrome</a>
+        <a class="p-2" href="#visual_studio_code">Visual Studio Code</a>
+        <a class="p-2" href="#notepad++">Notepad++</a>
+        <a class="p-2" href="#google_chrome">Google Chrome</a>
       </nav>
+      <button role="button" id="theme-toggle">
+        Switch Theme
+      </button>
     </div>
   </header>
 
-  <div class="bg-white">
+  <div>
     <div class="container">
       <h1 class="pt-5" id="visual_studio_code"><u>Visual Studio Code</u></h1>
       <p class="text-muted mb-4">Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications. Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.</p>
@@ -65,7 +68,7 @@
     </div>
   </div>
 
-  <div class="bg-white">
+  <div>
     <div class="container">
       <h1 class="pt-5" id="notepad++"><u>Notepad++</u></h1>
       <p class="text-muted mb-4">Notepad++ is a free (as in "free speech" and also as in "free beer") source code editor and Notepad replacement that supports several languages. Running in the MS Windows environment, its use is governed by GPL License.</p>
@@ -124,7 +127,7 @@
     </div>
   </div>
 
-  <div class="bg-white">
+  <div>
     <div class="container">
       <h1 class="pt-5" id="google_chrome"><u>Google Chrome</u></h1>
       <p class="text-muted mb-4">Google Chrome is a web browser developed by Google. It allows users to access and browse the internet, view web pages, and interact with online content. Chrome is known for its speed, security features, and minimalist design.</p>
@@ -166,10 +169,12 @@
     </div>
   </div>
 
-  <footer class="bg-dark text-white">
+  <footer class="">
     <div class="container">
       <p class="float-right"><a href="#">Back to top</a></p>
       <i class="fa fa-github" aria-hidden="true"></i> This code is available on <a href="https://github.com/PROOHF">GitHub</a> | Have this random dude made more useful stuff? <a href="http://www.proohf.com/">Let's see</a>
     </div>
   </footer>
-
+  <script src="js/script.js"></script>
+</body>
+</html>
